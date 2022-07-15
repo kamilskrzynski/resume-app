@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		37CFA26128816FD600B59CA7 /* ResumeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFA26028816FD600B59CA7 /* ResumeApp.swift */; };
-		37CFA26328816FD600B59CA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFA26228816FD600B59CA7 /* ContentView.swift */; };
+		37CFA26328816FD600B59CA7 /* ResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFA26228816FD600B59CA7 /* ResumeView.swift */; };
 		37CFA26528816FD900B59CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CFA26428816FD900B59CA7 /* Assets.xcassets */; };
 		37CFA26828816FD900B59CA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CFA26728816FD900B59CA7 /* Preview Assets.xcassets */; };
+		37CFA26F2881705100B59CA7 /* ResumeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFA26E2881705100B59CA7 /* ResumeModel.swift */; };
+		37CFA271288182A800B59CA7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFA270288182A800B59CA7 /* ViewModel.swift */; };
+		37CFA273288187DC00B59CA7 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFA272288187DC00B59CA7 /* HeaderView.swift */; };
+		37CFA278288188AF00B59CA7 /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFA277288188AF00B59CA7 /* SkillView.swift */; };
+		37CFA27A288188F300B59CA7 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFA279288188F300B59CA7 /* SkillsView.swift */; };
+		37CFA27C2881B65700B59CA7 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFA27B2881B65700B59CA7 /* ProjectView.swift */; };
+		37CFA27E2881B65F00B59CA7 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFA27D2881B65F00B59CA7 /* ProjectsView.swift */; };
+		37CFA2812881B99100B59CA7 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFA2802881B99100B59CA7 /* WebView.swift */; };
+		37CFA2832881BE1A00B59CA7 /* JobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFA2822881BE1A00B59CA7 /* JobView.swift */; };
+		37CFA2852881BE2300B59CA7 /* JobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFA2842881BE2300B59CA7 /* JobsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		37CFA25D28816FD600B59CA7 /* Resume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CFA26028816FD600B59CA7 /* ResumeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeApp.swift; sourceTree = "<group>"; };
-		37CFA26228816FD600B59CA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37CFA26228816FD600B59CA7 /* ResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeView.swift; sourceTree = "<group>"; };
 		37CFA26428816FD900B59CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37CFA26728816FD900B59CA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37CFA26E2881705100B59CA7 /* ResumeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeModel.swift; sourceTree = "<group>"; };
+		37CFA270288182A800B59CA7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		37CFA272288187DC00B59CA7 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		37CFA277288188AF00B59CA7 /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
+		37CFA279288188F300B59CA7 /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
+		37CFA27B2881B65700B59CA7 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		37CFA27D2881B65F00B59CA7 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		37CFA2802881B99100B59CA7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		37CFA2822881BE1A00B59CA7 /* JobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobView.swift; sourceTree = "<group>"; };
+		37CFA2842881BE2300B59CA7 /* JobsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,11 @@
 		37CFA25F28816FD600B59CA7 /* Resume */ = {
 			isa = PBXGroup;
 			children = (
+				37CFA27F2881B98700B59CA7 /* Resources */,
 				37CFA26028816FD600B59CA7 /* ResumeApp.swift */,
-				37CFA26228816FD600B59CA7 /* ContentView.swift */,
+				37CFA2752881887000B59CA7 /* Models */,
+				37CFA2742881886500B59CA7 /* Views */,
+				37CFA2762881887700B59CA7 /* ViewModels */,
 				37CFA26428816FD900B59CA7 /* Assets.xcassets */,
 				37CFA26628816FD900B59CA7 /* Preview Content */,
 			);
@@ -65,6 +88,45 @@
 				37CFA26728816FD900B59CA7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37CFA2742881886500B59CA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37CFA272288187DC00B59CA7 /* HeaderView.swift */,
+				37CFA26228816FD600B59CA7 /* ResumeView.swift */,
+				37CFA277288188AF00B59CA7 /* SkillView.swift */,
+				37CFA279288188F300B59CA7 /* SkillsView.swift */,
+				37CFA27B2881B65700B59CA7 /* ProjectView.swift */,
+				37CFA27D2881B65F00B59CA7 /* ProjectsView.swift */,
+				37CFA2822881BE1A00B59CA7 /* JobView.swift */,
+				37CFA2842881BE2300B59CA7 /* JobsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		37CFA2752881887000B59CA7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37CFA26E2881705100B59CA7 /* ResumeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		37CFA2762881887700B59CA7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				37CFA270288182A800B59CA7 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		37CFA27F2881B98700B59CA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37CFA2802881B99100B59CA7 /* WebView.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37CFA26328816FD600B59CA7 /* ContentView.swift in Sources */,
+				37CFA27A288188F300B59CA7 /* SkillsView.swift in Sources */,
+				37CFA2812881B99100B59CA7 /* WebView.swift in Sources */,
+				37CFA2852881BE2300B59CA7 /* JobsView.swift in Sources */,
+				37CFA278288188AF00B59CA7 /* SkillView.swift in Sources */,
+				37CFA273288187DC00B59CA7 /* HeaderView.swift in Sources */,
+				37CFA26328816FD600B59CA7 /* ResumeView.swift in Sources */,
+				37CFA26F2881705100B59CA7 /* ResumeModel.swift in Sources */,
 				37CFA26128816FD600B59CA7 /* ResumeApp.swift in Sources */,
+				37CFA27E2881B65F00B59CA7 /* ProjectsView.swift in Sources */,
+				37CFA27C2881B65700B59CA7 /* ProjectView.swift in Sources */,
+				37CFA271288182A800B59CA7 /* ViewModel.swift in Sources */,
+				37CFA2832881BE1A00B59CA7 /* JobView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
