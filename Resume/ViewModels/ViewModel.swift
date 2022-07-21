@@ -70,6 +70,11 @@ final class ViewModel: ObservableObject {
                 githubLink: "https://github.com/kamilskrzynski/expenses-tracker"
             ),
             Project(
+                appName: "SF Symbols",
+                appDescription: "SF Symbols browser app.",
+                githubLink: "https://github.com/kamilskrzynski/sfsymbols"
+            ),
+            Project(
                 appName: "Crypto Tracker",
                 appDescription: "Simple crypto tracking app made using SwiftUI, Combine and CoinGecko API.",
                 githubLink: "https://github.com/kamilskrzynski/crypto-tracker"
